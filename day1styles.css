@@ -1,0 +1,80 @@
+body {
+    margin: 75px 10px 0px 80px;
+    background-color: #d5d5d5;
+    font-family: 'Open Sans';
+}
+
+h2 {
+    color: rgb(126, 127, 122);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+.column {
+    flex: 33%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* image hovers */
+
+
+.hoverContainer:hover {
+    transition: 0.5s ease-in-out;
+    opacity: 0.3;
+}
+
+
+#twitter {
+    float: left;
+    margin-right: 25px;
+    transition: transform .2s;
+}
+
+#twitter:hover {
+    transform: scale(1.5);
+}
+
+#facebook {
+    float: left;
+    margin-right: 25px;
+    transition: transform .2s;
+}
+
+#facebook:hover {
+    transform: scale(1.5);
+}
+
+#linkedIn {
+    float: left;
+    margin-right: 25px;
+    transition: transform .2s;
+}
+
+#linkedIn:hover {
+    transform: scale(1.5);
+}
+
+#instagram {
+    float: left;
+    margin-right: 25px;
+    transition: transform .2s;
+}
+
+#instagram:hover {
+    transform: scale(1.5);
+}
+
+footer {
+    margin: 40px 0 0 10px;
+}
