@@ -52,11 +52,10 @@ h2 {
 .bottomText {
     padding-left: 10px;
     word-wrap: normal;
-    font-size: 12;
 }
 
 .overlay {
-    background: linear-gradient(to bottom right, #d5d5d5 51.5%, transparent 3.5%);
+    background: linear-gradient(to bottom right, #d5d5d5 51.5%, transparent 10%);
     position: absolute;
     top: 0;
     bottom: 10px;
