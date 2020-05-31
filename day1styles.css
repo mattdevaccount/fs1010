@@ -21,15 +21,16 @@ h2 {
 }
 
 .column img {
-    margin-top: 8px;
+    padding-top: 8px;
     vertical-align: middle;
     width: 100%;
-}
+} 
 
 /* image hovers */
 
 .hoverContainer {
     position: relative;
+    width: 100%;
 }
 
 .hoverContainer:hover .overlay{
@@ -38,6 +39,7 @@ h2 {
 }
 
 .overlay {
+    background: linear-gradient(to bottom right, #d5d5d5, transparent);
     position: absolute;
     top: 0;
     bottom: 0;
@@ -47,7 +49,6 @@ h2 {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background: linear-gradient(to bottom right, #d5d5d5);
 }
 
 #twitter {
