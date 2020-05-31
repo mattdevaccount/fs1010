@@ -1,10 +1,16 @@
 body {
     margin: 75px 10px 0px 80px;
+    max-width: 1100px;
     background-color: #d5d5d5;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-weight: lighter;
 }
 
 h2 {
+    font-weight: lighter;
     color: rgb(126, 127, 122);
 }
 
@@ -35,14 +41,25 @@ h2 {
 
 .hoverContainer:hover .overlay{
     transition: 0.5s ease-in-out;
-    opacity: 1;
+    opacity: 0.75;
+}
+
+.topText {
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.bottomText {
+    padding-left: 10px;
+    word-wrap: normal;
+    font-size: 12;
 }
 
 .overlay {
-    background: linear-gradient(to bottom right, #d5d5d5, transparent);
+    background: linear-gradient(to bottom right, #d5d5d5 51.5%, transparent 3.5%);
     position: absolute;
     top: 0;
-    bottom: 0;
+    bottom: 10px;
     left: 0;
     right: 0;
     height: 100%;
@@ -92,5 +109,5 @@ h2 {
 }
 
 footer {
-    margin: 40px 0 0 10px;
+    margin: 40px 0 200px 10px;
 }
